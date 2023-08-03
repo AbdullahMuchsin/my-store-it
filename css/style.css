@@ -315,7 +315,7 @@ footer a {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  padding:1.5em 3em;
+  padding: 1.5em 3em;
 }
 .contact-pra-satu label {
   padding-bottom: 5px;
@@ -324,18 +324,19 @@ footer a {
 textarea {
   margin-bottom: 1em;
   padding: 0.5em;
-  outline: none;
   border-radius: 4px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
+  border: none;
+  outline: #4682a9;
 }
 .contact-pra-satu button {
   padding: 0.5em 1em;
   width: 100px;
   background-color: skyblue;
-  border:none;
+  border: none;
   cursor: pointer;
   border: 1px solid rgba(119, 136, 143, 0.439);
   transition: 300ms;
@@ -356,6 +357,7 @@ textarea {
   }
   .contact-pra-satu {
     width: 60%;
+    padding: 1.5em 2em;
   }
 }
 
@@ -393,6 +395,7 @@ textarea {
   }
   .contact-pra-satu {
     width: 70%;
+    padding: 1.5em 1.5em;
   }
 }
 
@@ -461,5 +464,6 @@ textarea {
   }
   .contact-pra-satu {
     width: 80%;
+    padding: 1.5em 1em;
   }
 }
